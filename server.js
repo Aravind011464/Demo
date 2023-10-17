@@ -49,7 +49,7 @@ const server = http.createServer((req, res) => {
       } else {
         res.statusCode = 200;
         res.end(data);
-      }
+      } 
     });
   } else if (req.method === 'GET' && req.url === '/getDateTime') {
     res.statusCode = 200;
